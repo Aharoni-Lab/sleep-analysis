@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sleep-analysis"
+version = "0.1.0"
+description = "Some code to analyze sleep data!"
+authors = ["sneakers-the-rat <JLSaunders987@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "sleep_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.0.1"
+furo = "^2023.5.20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
