@@ -14,6 +14,7 @@ To make a new package, we first handle some preliminary structing things
   - Add repository to automatically build on commit - https://docs.readthedocs.io/en/stable/integrations.html
   - Configuration https://docs.readthedocs.io/en/stable/config-file/v2.html
   - Furo theme! https://pypi.org/project/furo/
+  - Poetry groups and readthedocs: https://browniebroke.com/blog/specify-docs-dependency-groups-with-poetry-and-read-the-docs/
 - Tests (maybe next time!)
 - Notebooks (just putting them in a specific place and showing how to import from the package)
 
