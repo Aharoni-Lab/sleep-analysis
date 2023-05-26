@@ -11,6 +11,8 @@ packages = [{include = "sleep_analysis"}]
 python = "^3.9"
 scikit-learn = "^1.2.2"
 
+[tool.poetry.group.docs]
+optional = true
 
 [tool.poetry.group.docs.dependencies]
 sphinx = "^7.0.1"
