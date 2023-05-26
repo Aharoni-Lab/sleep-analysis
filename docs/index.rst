@@ -15,6 +15,8 @@ This is a
    :caption: Contents:
 
    roadmap
+   io/index
+
 
 
 Indices and tables
