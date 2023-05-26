@@ -15,6 +15,8 @@ To make a new package, we first handle some preliminary structing things
   - Configuration https://docs.readthedocs.io/en/stable/config-file/v2.html
   - Furo theme! https://pypi.org/project/furo/
   - Poetry groups and readthedocs: https://browniebroke.com/blog/specify-docs-dependency-groups-with-poetry-and-read-the-docs/
+  - Graphviz for making diagrams! - https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html
+  - https://myst-parser.readthedocs.io/en/latest/
 - Tests (maybe next time!)
 - Notebooks (just putting them in a specific place and showing how to import from the package)
 
