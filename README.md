@@ -31,6 +31,18 @@ To make a new package, we first handle some preliminary structing things
 
 - Semantic versioning (why most version numbers are the way they are) - https://semver.org/
 
-## Programming Concepts
+## General Programming Concepts
 
 - "[Information hiding](https://en.wikipedia.org/wiki/Information_hiding)" - making modularity and clear division of labor
+- [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+
+## Python Concepts
+
+- [dataclasses](https://docs.python.org/3/library/dataclasses.html) - declare some basic data container types
+- Revisit ABC module and abstract methods 
+
+## Data Formats & Tools to investigate later
+
+- BIDS - https://bids-specification.readthedocs.io/en/stable/01-introduction.html
+- [nipype](https://nipype.readthedocs.io/)
+- [nilearn](https://nilearn.github.io/)

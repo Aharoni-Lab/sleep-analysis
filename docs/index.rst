@@ -15,7 +15,15 @@ This is a
    :caption: Contents:
 
    roadmap
-   io/index
+   datasets
+   todo
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API Documentation:
+
+   api/io/index
+   api/models/index
 
 
 

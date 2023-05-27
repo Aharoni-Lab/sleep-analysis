@@ -74,3 +74,4 @@ Understand how memory consolidation is affected by sleep
 - Analysis
   - Detect sharp wave ripples
   - Analyze sharp wave ripples as it relates to low-dimensional neural manifolds
+

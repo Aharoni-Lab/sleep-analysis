@@ -2,6 +2,8 @@ from pathlib import Path
 
 from sleep_analysis.io.io import IO
 
+
+
 class EEGLab(IO):
     """
     Import eeglab data!
@@ -16,16 +18,20 @@ class EEGLab(IO):
     ):
         self.directory = directory
 
-class EEGLab2(IO):
-    """
-    Import eeglab data! AGAIN
+    def load(self, path:Path):
+        """
+        Given some directory, load the raw eeg files
 
-    Args:
-        directory (:class:`pathlib.Path`): Some path that we want to use
-    """
+        Args:
+            path:
 
-    def __init__(
-        self,
-        directory: Path
-    ):
-        self.directory = directory
+        Returns:
+
+        """
+        set_files = Path(path).glob('*.set')
+
+        # TODO: Finish me
+
+
+
+
